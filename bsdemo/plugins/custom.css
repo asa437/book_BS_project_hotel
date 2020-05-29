@@ -62,4 +62,37 @@ footer>.position-fixed{
     display:flex;
 }
 
+#roomPrice th{
+    width:25%;
+}
 
+@media(min-width:992px){
+    #lokifacility li:nth-of-type(even) img{
+        order:1
+    }
+}
+
+#lokifacility{
+    background:url("https://picsum.photos/1920/1080/?random=1"),
+    radial-gradient(
+        circle, 
+        rgba(238,174,202,1) 0%, 
+        rgba(235,196,173,1) 52%, 
+        rgba(233,216,148,1) 100%
+        );
+    /* 圖片融合 */
+    background-blend-mode:multiply;
+    background-position:center;
+    /* cover自動填滿 */
+    background-size:cover;
+    
+    background-attachment:fixed;
+}
+
+#lokitrans{
+    filter:grayscale(0.5);
+}
+
+.nav-link{
+    transition: 1000s ease;
+}
